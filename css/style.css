@@ -246,3 +246,43 @@ pre{
     box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
     justify-self: center;
 }
+
+/* Tablets and under */
+@media(max-width: 768px){
+    .grid,
+    .showcase .grid,
+    .hobbies .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase{
+        height: auto;
+    }
+
+    .showcase-text{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .edu-content i{
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media(max-width: 500px){
+    .navbar{
+        height: 110px;
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.1);
+    }
+}
