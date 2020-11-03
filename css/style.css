@@ -2,7 +2,11 @@
 
 :root{
     --primary-color: #047aed;
-    --secondary-color: white;
+    --secondary-color: #ffffff;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
 }
 
 *{
@@ -43,6 +47,18 @@ p{
 
 img{
     width: 100%;
+}
+
+code,
+pre{
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.hidden{
+  visibility: hidden;
+  height: 0;
 }
 
 /* Navbar styles*/
