@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --primary-color: #047aed;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+img{
+    width: 100%;
+}
+
+/* Navbar styles*/
+.navbar{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    height: 70px;
+
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px #ffffff solid;
+}
+
+.navbar .flex{
+    justify-content: space-between;
+}
+/* Showcase */
+.showcase{
+    height: 400px;
+    color: #ffffff;
+    position: relative;
+}
+
+.showcase h1{
+    font-size: 40px;
+}
+
+.showcase p{
+    margin-bottom: 20px;
+}
+
+.showcase-picture{
+    position: relative;
+    z-index: 100;
+}
+
+.showcase img{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+}
+
+.showcase .grid{
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.showcase::before,
+.showcase::after{
+    content: '';
+    position: absolute;
+    height: 120px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    z-index: 1;
+}
+
+/* Education */
+.education{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.education::after{
+    content: '';
+    position: absolute;
+    height: 120px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    z-index: 1;
+}
+
+.edu-content{
+    display: flex;
+}
+
+/* Technologies */
+.tech{
+    padding-top: 100px;
+}
+
+.tech .flex{
+    flex-wrap: wrap;
+}
+
+.tech .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.tech .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tech-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.tech .card:hover{
+    transform: translateY(-15px);
+}
