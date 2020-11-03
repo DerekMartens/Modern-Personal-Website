@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #047aed;
+    --secondary-color: white;
 }
 
 *{
@@ -28,6 +29,12 @@ h1, h2{
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
+}
+
+h3, h4{
+    font-weight: 300;
+    line-height: 1;
+    margin: 5px 0;
 }
 
 p{
@@ -135,11 +142,15 @@ img{
 
 .edu-content{
     display: flex;
+    text-align: middle;
 }
+
 
 /* Technologies */
 .tech{
     padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
 }
 
 .tech .flex{
@@ -164,4 +175,45 @@ img{
 
 .tech .card:hover{
     transform: translateY(-15px);
+}
+
+.tech::after{
+    content: '';
+    position: absolute;
+    height: 120px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: var(--primary-color);
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    z-index: 1;
+}
+
+.work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.work::after{
+    content: '';
+    position: absolute;
+    height: 120px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    z-index: 1;
+}
+
+.hobbies{
+    padding-top: 100px;
+    padding-bottom: 50px;
 }

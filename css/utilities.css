@@ -44,7 +44,7 @@
 .bg-secondary,
 .btn-secondary {
   background-color: var(--secondary-color);
-  color: #fff;
+  color: #333;
 }
 
 .bg-dark,
@@ -73,15 +73,15 @@
     color: var(--primary-color);
   }
   
-  .text-secondary {
+.text-secondary {
     color: var(--secondary-color);
   }
   
-  .text-dark {
+.text-dark {
     color: var(--dark-color);
   }
   
-  .text-light {
+.text-light {
     color: var(--light-color);
   }
   
@@ -105,6 +105,10 @@
   .xl {
     font-size: 4rem;
   }
+
+.bold{
+    font-weight: bold;
+}
 
 .text-center{
     text-align: center;
