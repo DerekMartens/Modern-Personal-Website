@@ -37,7 +37,7 @@ h1, h2{
 
 h3, h4{
     font-weight: 300;
-    line-height: 1;
+    line-height: 1.2;
     margin: 5px 0;
 }
 
@@ -65,7 +65,7 @@ pre{
 .navbar{
     background-color: var(--primary-color);
     color: #ffffff;
-    height: 70px;
+    height: 100px;
 
 }
 
@@ -75,6 +75,7 @@ pre{
 
 .navbar a{
     color: #ffffff;
+    font-size: x-large;
     padding: 10px;
     margin: 0 5px;
 }
@@ -232,4 +233,16 @@ pre{
 .hobbies{
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.hobby-content{
+    overflow: visible;
+}
+
+.hobby-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+    justify-self: center;
 }
