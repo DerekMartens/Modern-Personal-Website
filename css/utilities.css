@@ -36,7 +36,8 @@
 
 /* Backgrounds & colored buttons */
 .bg-primary,
-.btn-primary {
+.btn-primary,
+.btn-primary a{
   background-color: var(--primary-color);
   color: #fff;
 }
@@ -61,11 +62,21 @@
 
 .bg-primary a,
 .btn-primary a,
-.bg-secondary a,
 .btn-secondary a,
 .bg-dark a,
 .btn-dark a {
   color: #fff;
+}
+
+.bg-secondary a,
+.bg-secondary a:focus,
+.bg-secondary a:active,
+.bg-secondary a:visited{
+    color: var(--primary-color);
+}
+
+.bg-secondary a:hover{
+    color: var(--dark-color);
 }
 
 /* Text colors */
