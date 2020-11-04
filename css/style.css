@@ -296,7 +296,6 @@ Portfolio Section
 }
 
 .portfolio-image{
-    animation: slideInFromLeft 1s ease-in;
     max-height: 400px;
     max-width: 400px;
     border-radius: 20%;
@@ -308,10 +307,6 @@ Portfolio Section
     border-radius: 20%;
     box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
     justify-self: center;
-}
-
-.portfolio-text{
-    animation: slideInFromRight 1s ease-in;
 }
 
 /* Animations */
