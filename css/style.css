@@ -256,6 +256,7 @@ pre{
 Portfolio Section
 **************************************************/
 .portfolio-head{
+    animation: slideInFromTop 1s ease-in;
     position: relative;
     padding-bottom: 10px;
 }
@@ -285,11 +286,17 @@ Portfolio Section
     padding-top: 100px;
 }
 
+.portfolio .grid{
+    grid-template-columns: 30% 70%;
+    gap: 30px;
+}
+
 .portfolio-content{
     overflow: visible;
 }
 
 .portfolio-image{
+    animation: slideInFromLeft 1s ease-in;
     max-height: 400px;
     max-width: 400px;
     border-radius: 20%;
@@ -303,9 +310,8 @@ Portfolio Section
     justify-self: center;
 }
 
-.portfolio .grid{
-    grid-template-columns: 30% 70%;
-    gap: 30px;
+.portfolio-text{
+    animation: slideInFromRight 1s ease-in;
 }
 
 /* Animations */
