@@ -71,42 +71,50 @@
 /* Text colors */
 .text-primary {
     color: var(--primary-color);
-  }
+}
   
 .text-secondary {
     color: var(--secondary-color);
-  }
+}
   
 .text-dark {
     color: var(--dark-color);
-  }
+}
   
 .text-light {
     color: var(--light-color);
-  }
+}
   
-  /* Text sizes */
-  .lead {
+/* Text sizes */
+.lead {
     font-size: 20px;
-  }
+}
   
-  .sm {
+.sm {
     font-size: 1rem;
-  }
+}
   
-  .md {
+.md {
     font-size: 2rem;
-  }
+}
   
-  .lg {
+.lg {
     font-size: 3rem;
-  }
+}
   
-  .xl {
+.xl {
     font-size: 4rem;
-  }
+}
 
-.bold{
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.bold {
     font-weight: bold;
 }
 

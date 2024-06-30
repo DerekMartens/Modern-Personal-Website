@@ -7,6 +7,7 @@
     --light-color: #f4f4f4;
     --success-color: #5cb85c;
     --error-color: #d9534f;
+    --bg-skew: -2deg
 }
 
 *{
@@ -21,7 +22,7 @@ body{
     line-height: 1.6;
 }
 
-ul{
+nav ul{
     list-style-type: none;
 }
 
@@ -133,10 +134,10 @@ pre{
     right: 0;
     left: 0;
     background: #ffffff;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    transform: skewY(var(--bg-skew));
+    -webkit-transform: skewY(var(--bg-skew));
+    -moz-transform: skewY(var(--bg-skew));
+    -ms-transform: skewY(var(--bg-skew));
     z-index: 1;
 }
 
@@ -155,10 +156,10 @@ pre{
     right: 0;
     left: 0;
     background: #ffffff;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    transform: skewY(var(--bg-skew));
+    -webkit-transform: skewY(var(--bg-skew));
+    -moz-transform: skewY(var(--bg-skew));
+    -ms-transform: skewY(var(--bg-skew));
     z-index: 1;
 }
 
@@ -207,10 +208,10 @@ pre{
     right: 0;
     left: 0;
     background: var(--primary-color);
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    transform: skewY(var(--bg-skew));
+    -webkit-transform: skewY(var(--bg-skew));
+    -moz-transform: skewY(var(--bg-skew));
+    -ms-transform: skewY(var(--bg-skew));
     z-index: 1;
 }
 
@@ -218,6 +219,11 @@ pre{
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
+}
+
+.work-exp-ul {
+    margin-left: 20px;
+    text-decoration: dotted;
 }
 
 .work::after{
@@ -228,10 +234,10 @@ pre{
     right: 0;
     left: 0;
     background: #ffffff;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    transform: skewY(var(--bg-skew));
+    -webkit-transform: skewY(var(--bg-skew));
+    -moz-transform: skewY(var(--bg-skew));
+    -ms-transform: skewY(var(--bg-skew));
     z-index: 1;
 }
 
@@ -274,10 +280,10 @@ Portfolio Section
     right: 0;
     left: 0;
     background: var(--primary-color);
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    transform: skewY(var(--bg-skew));
+    -webkit-transform: skewY(var(--bg-skew));
+    -moz-transform: skewY(var(--bg-skew));
+    -ms-transform: skewY(var(--bg-skew));
     z-index: 1;
 }
 
